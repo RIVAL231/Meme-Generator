@@ -62,7 +62,11 @@ main {
 .meme {
   position: relative;
 }
-
+.image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .meme--image {
   max-width: 100%;
   border-radius: 3px;
@@ -103,36 +107,3 @@ main {
   top: 0;
 }
 
-@media only screen and (max-width: 1605px){
-  .meme--text {
-    position: absolute;
-    width: 80%;
-    text-align: center;
-    left: 50%;
-    transform: translateX();
-    margin: 15px 0;
-    padding: 0 5px;
-    font-family: impact, sans-serif;
-    font-size: 2em;
-    text-transform: uppercase;
-    color: white;
-    letter-spacing: 1px;
-    text-shadow:
-        2px 2px 0 #000,
-        -2px -2px 0 #000,
-        2px -2px 0 #000,
-        -2px 2px 0 #000,
-        0 2px 0 #000,
-        2px 0 0 #000,
-        0 -2px 0 #000,
-        -2px 0 0 #000,
-        2px 2px 5px #000;
-  }
-  .meme-text
-  .meme--image {
-    max-width: 100%;
-    border-radius: 3px;
-  left: 30%;
-    position: absolute;
-  }
-}
